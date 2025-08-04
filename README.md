@@ -54,7 +54,7 @@ cd weather-app
 ## 📜Note
 - Open index.html in browser to launch the Weather App in your default browser.
 - Make sure all files like `style.css`, `script.js`, and videos are in the correct folders as shown in the structure.
-```
+
 
 
 
