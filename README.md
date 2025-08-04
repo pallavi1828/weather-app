@@ -12,30 +12,36 @@ A dynamic weather forecast web application that displays real-time weather updat
 - **API:** OpenWeatherMap
 - **Version Control:** Git & GitHub
 
-## 📁 Folder Structure
-- Weather App/
+
+---
+
+## 📁 Project Structure
+
+Weather-App/
 │
-├── index.html                 # Main HTML page
-├── style.css                  # Custom styles
-├── script.js                  # JavaScript for API calls and DOM updates
+├── index.html # Main HTML file
+├── style.css # Styling for the app
+├── script.js # JavaScript logic (API, DOM, etc.)
 │
 ├── assets/
-│   ├── icons/                 # Weather icons (optional)
-│   └── fonts/                 # Any custom fonts (if used)
+│ ├── icons/ # Optional: weather icons
+│ └── fonts/ # Optional: custom fonts
 │
-├── videos/                    # Weather background videos (compressed)
-│   ├── clear-sky.mp4
-│   ├── snow.mp4
-│   ├── rain.mp4
-│   ├── fog.mp4
-│   └── thunderstorm.mp4
+├── videos/ # Compressed weather background videos
+│ ├── clear-sky.mp4
+│ ├── snow.mp4
+│ ├── rain.mp4
+│ ├── fog.mp4
+│ └── thunderstorm.mp4
 │
-├── .gitignore                 # Ignores video_backup and large files
-├── README.md                  # This file
-└── video_backup/              # Original uncompressed videos (not tracked by Git)
+├── video_backup/ # 🔒 Original HD videos (NOT in Git)
+│ └── *.mp4 # Large source files for backup
+│
+├── .gitignore # Ignore video_backup/, large files, etc.
+└── README.md # This file
 
 
-
+---
 
 ## 🔧 Setup
 ```bash
