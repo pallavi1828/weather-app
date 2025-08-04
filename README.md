@@ -13,8 +13,27 @@ A dynamic weather forecast web application that displays real-time weather updat
 - **Version Control:** Git & GitHub
 
 ## 📁 Folder Structure
-- `/vedios weather` – background videos for different weather types
-- `/index.html`, `/style.css`, `/script.js` – core app files
+- Weather App/
+│
+├── index.html                 # Main HTML page
+├── style.css                  # Custom styles
+├── script.js                  # JavaScript for API calls and DOM updates
+│
+├── assets/
+│   ├── icons/                 # Weather icons (optional)
+│   └── fonts/                 # Any custom fonts (if used)
+│
+├── videos/                    # Weather background videos (compressed)
+│   ├── clear-sky.mp4
+│   ├── snow.mp4
+│   ├── rain.mp4
+│   ├── fog.mp4
+│   └── thunderstorm.mp4
+│
+├── .gitignore                 # Ignores video_backup and large files
+├── README.md                  # This file
+└── video_backup/              # Original uncompressed videos (not tracked by Git)
+
 
 
 
