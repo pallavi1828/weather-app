@@ -9,7 +9,7 @@ import java.net.InetSocketAddress;
 import java.net.URI;
 
 public class WeatherApp {
-    private static final String API_KEY = "58c0eeffc216627e338caa22a25edd23"; // Replace with your OpenWeatherMap API key
+    private static final String API_KEY = ""; // Replace with your OpenWeatherMap API key
 
     public static void main(String[] args) throws Exception {
         HttpServer server = HttpServer.create(new InetSocketAddress(9090), 0); // Changed port to 9090
@@ -63,4 +63,5 @@ public class WeatherApp {
             }
         }
     }
+
 }
