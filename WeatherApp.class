@@ -1,0 +1,16 @@
+import com.sun.net.httpserver.HttpServer;
+import java.net.InetSocketAddress;
+
+public class WeatherApp {
+   private static final String API_KEY = "";// Replace with your actual API key
+
+   public WeatherApp() {
+   }
+
+   public static void main(String[] var0) throws Exception {
+      HttpServer var1 = HttpServer.create(new InetSocketAddress(9090), 0);
+      var1.createContext("/api/weather", new WeatherApp$WeatherHandler());
+      System.out.println("Server started on port 9090");
+      var1.start();
+   }
+}
